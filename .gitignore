@@ -1,0 +1,17 @@
+# Tekstiredaktorite ajutised asjad
+*~
+*.swp
+*.bak
+*.tmp
+
+# Java asjad
+out/
+build/
+*.class
+
+# Pythoni asjad
+*.pyc
+
+# C/C++ asjad
+*.so
+*.o
