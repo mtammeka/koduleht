@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+h6 {
+	color: yellow;
+	font-size: 40px;
+	margin-left: 20px;
+	text-shadow: 5px 5px 5px #FA8072;
+	
+}
