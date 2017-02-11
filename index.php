@@ -4,21 +4,24 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>mtammeka: i244 aine esimene praktikum</title>
+		<script src="eraldiSkript.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
 
 	</head>
-	
-	<body>
-		<img src="pildid/c.gif" alt="..."/>
-	<p id="suvajutt">Tervitus!</p>
 	<script>
-		function myFunction() {
-		document.getElementById("suvajutt").innerHTML = "Sa veel siin?";
-	}
+		function onLoad() {
+			startTime();
+		}
+		
 	</script>
+	<body onload="startTime()">
+	<img src="pildid/c.gif" alt="..."/>
+	<p id="suvajutt">Tervitus!</p>
+
+	<div id="timertext"></div>
 	
-	<button type="button" onclick="myFunction()">Kliki mind!</button>
+	<button type="button" onclick="changeMyText()">Kliki mind!</button>
 
 	<?php
 		
