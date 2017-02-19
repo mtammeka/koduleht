@@ -17,6 +17,9 @@
 	</script>
 	<body onload="startTime()">
 	<img src="pildid/c.gif" alt="..."/>
+	<p>
+		<a href="esimene_n2dal.html">i244 esimese nädala nädalatöö - Sissejuhatus HTML-i</a>
+	</p>
 	<p id="suvajutt">Tervitus!</p>
 
 	<div id="timertext"></div>
