@@ -17,16 +17,33 @@
 	<body>
 		<div id="tabelid">
 			<table border="1"><!-- sellist borderit päriselt ei kasuta! -->
-				<th>esimene</th><th>teine</th>
+				<caption>Asjade tabel</caption><!-- võib ka teistmoodi pealkirjastada -->
+				<th>esimene</th>
+				<th>teine</th>
 				<tr>
-					<td>test</td><td>test</td>
+					<td>test</td>
+					<td>&nbsp;</td><!-- -->
 				</tr>
-					<td>test</td><td>test</td>
+					<td>test ja pikem jutt</td>
+					<td>test</td>
 				<tr>
-					<td>test</td><td>test</td>
+					<td>test</td>
+					<td>test ja siia ka pikka juttu</td>
 				</tr>
 				<tr>
-					<td>test</td><td>test</td>
+					<td>test</td>
+					<td>
+						<img src="pildid/shade.png" width="50" height="50" alt="fillerpilt"/>
+					</td>
+				</tr>
+				<tr>
+					<th rowspan="2">Mitmed asjad</th>
+					<td>test</td>
+				</tr>
+				<tr>
+					<td>test</td>
+				</tr>
+					<th colspan="2">test</th>
 				</tr>
 			</table>
 		</div>
