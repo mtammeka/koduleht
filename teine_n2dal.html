@@ -9,7 +9,7 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="UTF-8">
-		<title>i244 esimene nädal: Sissejuhatus HTML'i - "The Dyatlos Pass incident"</title>
+		<title>i244 teine nädal: HTML</title>
 
 	</head>
 	
@@ -50,7 +50,7 @@
 		</div>
 		
 		<div id="vormid">
-			<form action="POST" id="f1">
+			<form method="get" id="f1">
 				<table>
 					<th>Sildid</th><th>Elemendid</th>
 					<tr><td>Sisend:</td><td><input type="text"></td></tr>
@@ -81,36 +81,26 @@
 							</select>
 						</td>
 					</tr>
+					
+					<tr><td>textarea</td><td><input type="textarea"></td></tr>
+					
+					<tr>
+						<td>Tekst:</td>
+						<td><input type="text" maxlength="15" placeholder="Sisesta midagi"></td>
+					</tr>
+					
+					<tr><td>textarea</td><td><input type="textarea"></td></tr>
+					
+					<tr><td>checkbox</td><td><input type="checkbox" name="tehtagu" checked></td></tr>
+					<tr><th colspan="2"><button type="submit">Saada</button></th></tr>
+					
+					
+					
 				</table>
 			</form>
 		</div>
 		
-		<div id="foto">
-			<figure>
-				<img src="pildid/dyatlov.jpg" width="404" height="320" alt="Image credit: Wikipedia"/>
-				<figcaption>
-					A view ...
-				</figcaption>
-			</figure>
-		</div>
-		
-		<div id="sisu">
-			<h1>
-				The...
-			</h1>
-			
-			<p>
-				The Dyatlov Pass incident (Russian: <em>Гибель тургруппы Дятлова</em>) refers to...
-			</p>
-			</p>
-			
-			<h6>
-				<a href="https://en.wikipedia.org/wiki/Dyatlov_Pass_incident">
-					[Source]: Wikipedia
-				</a>
-			</h6>
-			
-		</div>
+
 		
 	</body>
 
