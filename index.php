@@ -7,14 +7,14 @@
 		<script src="eraldiSkript.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
-
-	</head>
 	<script>
 		function onLoad() {
 			startTime();
 		}
 		
 	</script>
+	</head>
+
 	<body onload="startTime()">
 	<img src="pildid/c.gif" alt="..."/>
 	<p>
