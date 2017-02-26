@@ -20,7 +20,7 @@
 	<p>
 		<a href="esimene_n2dal.html"><h1>i244 esimese nädala nädalatöö - Sissejuhatus HTML-i</h1></a>
 		<h1>i244 teise nädala nädalatöö - Peenem HTML</h1>
-		<a href="tabeliharjutus.html"><h1>&nbsp;&nbsp;&nbsp;&nbsp;1.) tabeliharjutus</h1></a>
+		<h1>&nbsp;&nbsp;&nbsp;&nbsp;<a href="tabeliharjutus.html">1.) tabeliharjutus</h1></a>
 	</p>
 	<p id="suvajutt">Tervitus!</p>
 
