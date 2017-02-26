@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" dir="ltr">
+<html lang="ca" dir="ltr"> <!-- ei leidnud ladina keele tagi haha -->
 	<head>
 		<meta charset="UTF-8">
 		<title>mtammeka: i244 aine esimene praktikum</title>
