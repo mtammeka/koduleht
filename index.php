@@ -20,7 +20,8 @@
 	<p>
 		<a href="esimene_n2dal.html">i244 esimese nädala nädalatöö - Sissejuhatus HTML-i</a><br>
 		i244 teise nädala nädalatöö - Peenem HTML<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<a href="tabeliharjutus.html">1.) tabeliharjutus</a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_01_tabeliharjutus.html">1.) tabeliharjutus</a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_02_vorm01.html">2.) vorm 1</a><br>
 	</p>
 	<p id="suvajutt">Tervitus!</p>
 
@@ -104,9 +105,6 @@
 </ol>
 <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim leo ut enim mattis porttitor. Nulla hendrerit vel eros ac tincidunt. Maecenas ac mi auctor, ultrices tortor cursus, maximus orci. Nunc ipsum erat, pellentesque quis elit a, tincidunt cursus sem. In odio massa, iaculis ut libero vel, suscipit tempor justo. Nulla congue ullamcorper tincidunt. Curabitur non accumsan nunc, sed imperdiet turpis. Donec at sodales dolor, a scelerisque felis. Sed ut est a eros dictum porttitor vitae imperdiet ante. Integer libero enim, molestie pretium mi imperdiet, porttitor fermentum lacus. Ut risus lacus, tincidunt ut odio id, vulputate scelerisque metus. Nulla non consectetur mi. Duis sed dui consectetur tortor dapibus elementum quis ac metus. Quisque cursus congue arcu, nec eleifend urna dictum eget. Nullam eleifend neque eu dolor euismod, in luctus tortor tristique.</pre>
 
-
-
-	
 
 	<p>
 		<a href="http://validator.w3.org/check?uri=referer">
