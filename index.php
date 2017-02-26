@@ -21,7 +21,8 @@
 		<a href="esimene_n2dal.html">i244 esimese nädala nädalatöö - Sissejuhatus HTML-i</a><br>
 		i244 teise nädala nädalatöö - Peenem HTML<br>
 		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_01_tabeliharjutus.html">1.) tabeliharjutus</a><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_02_vorm01.html">2.) vorm 1</a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_02_vorm01.html">2.1.) vorm 1</a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_02_vorm02.html">2.2.) vorm 2</a><br>
 	</p>
 	<p id="suvajutt">Tervitus!</p>
 
