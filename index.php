@@ -3,6 +3,8 @@
 <html lang="ca" dir="ltr"> <!-- ei leidnud ladina keele tagi haha -->
 	<head>
 		<meta charset="UTF-8">
+    <meta name="author" content="Madis Tammekänd">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<title>mtammeka: i244 aine esimene praktikum</title>
 		<script src="eraldiSkript.js"></script>
 
@@ -24,7 +26,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_02_vorm01.html">2.1.) vorm 1</a><br>
 		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_02_vorm02.html">2.2.) vorm 2</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_03_iframe.html">2.3.) iframe ja vormid</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="galerii/teine_n2dal_galerii.html">2.x.) praktikumi galeriitöö</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="galerii/teine_n2dal_galerii.html" title="Ei kuulu kodutöö alla">2.x.) praktikumi galeriitöö</a><br>
 	</p>
 	<p id="suvajutt">Tervitus!</p>
 
