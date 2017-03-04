@@ -1,0 +1,28 @@
+#roheline {
+  color: green;
+}
+
+.allajoonitud { /* klassid on ka olemas haha */
+  
+  text-decoration: underline;
+}
+
+#metsas {
+  
+  background-color: green;
+}
+
+#oluline {
+  
+  font-size: 200%;
+}
+
+#monotoonne {
+  font-family: monospace;
+}
+
+#herilane {
+  background-color: yellow;
+  outline: black  solid;
+  outline-width: 10px;
+}
