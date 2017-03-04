@@ -26,3 +26,10 @@
   outline: black  solid;
   outline-width: 10px;
 }
+
+#extra {
+  outline: dotted;
+  outline-width: 3px;
+  /* kõverad servad kuidas whaa */
+  
+}
