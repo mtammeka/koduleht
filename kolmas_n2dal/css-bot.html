@@ -10,15 +10,37 @@
   }
   
   div {
-    width: 300;
+    width: 300px;
     text-align: center;
   }
   
-  ul, li {
-    width: "90%";
-    background-color: "#c0c0c0";
+  ul { /* li selektoriga tehtud deklaratsioonid mõjutavad individuaalseid
+        nimekirja esinemisi eraldi */
+    width: 90%;
+    background-color: #c0c0c0;
     list-style: none;
   }
+  
+  div p { /* selektorite nestimine väljast sisse:
+            kõik paragrahvid div-i või div- ide sees*/
+    background-color: gray;
+  }
+  
+  #keha {
+    background-color: #c0c0c0;
+  }
+  
+  #pea span {
+    background-color: #c0c0c0;
+    font-size: 30px;
+  }
+  
+  .jalg {
+    background-color: gray;
+    color: rgb(255, 255, 255);
+  }
+  
+  
 	</style>
 </head>
 <body>
