@@ -28,8 +28,17 @@
 }
 
 #extra {
-  outline: dotted;
-  outline-width: 3px;
-  /* kõverad servad kuidas whaa */
-  
+  border: dotted;
+  border-width: 3px;
+  /* outline'i kasutades kumeraid nurkasid ei saanud */
+  border-radius: 15px;
+}
+
+#keskel {
+  font-style: italic;
+  text-align: center;
+}
+
+p.sihtmärk {
+  cursor: crosshair;
 }

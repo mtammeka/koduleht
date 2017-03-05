@@ -31,6 +31,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/test.html">3.x.) Kolmanda nädala päevaõppe praks</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/css-bot.html">3.1.) CSS bot</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/stiilid.html">3.2.) stiilid.html</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/artikkel.html">3.3.) artikkel</a><br>
 	</p>
 	<p id="suvajutt">Tervitus!</p>
 
