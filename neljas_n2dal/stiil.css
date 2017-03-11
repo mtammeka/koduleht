@@ -15,18 +15,13 @@ li a {
     text-decoration: none;
 }
 
-/* li:not(a) { color: red; border: solid black 1px; } */
 
-/* li:nth-child(1), li:nth-child(3), li:nth-child(9), li:nth-child(14) {
-    border: solid black 1px;
-    font-weight: bold;
-} */
 .vahepealkiri {
   display: block;
   border: solid black 1px;
   font-weight: bold;
 } 
-li a.active {
+li a.aktiivne {
     background-color: #4CAF50;
     color: white;
 }
@@ -35,4 +30,79 @@ li a.active {
 li a:hover:not(.aktiivne) {
     background-color: #555;
     color: white;
+}
+
+/* Muud asjad peale menüü */
+/* kogu lehe sisu on max 1000px ja min 600px lai */
+
+
+html { 
+  background: url(../pildid/lumi.png) no-repeat center center fixed; 
+  background-size: cover;
+}
+#sisu {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: justify;
+  text-justify: newspaper;
+
+}
+#sisu, #foto {
+  max-width: 1000px;
+  min-width: 600px;
+  margin: auto;
+}
+img.arhiivifoto {
+  height: 320px;
+  width: 404px;
+}
+
+img {
+  border: rgb(190, 190, 195) solid;
+  border-width: 5px;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-radius: 15px;
+}
+
+img:hover {
+  border: cyan solid;
+  border-width: 5px;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-radius: 15px;
+}
+
+h1, figcaption {
+  display: inline;
+  background-color: rgb(190, 190, 195);
+}
+
+h1:hover {
+  background-color: cyan;
+}
+
+h6 {
+  font-style: italic;
+  text-align: center;
+}
+
+h6 a:link {
+  color: red;
+}
+
+h6 a:visited {
+  color: black;
+}
+
+
+h6 a:hover {
+  color: rgb(190, 190, 195);
+}
+
+h6 a:active {
+  color: cyan;
+}
+
+em {
+  text-family: "Comic Sans MS", cursive, sans-serif;
 }
