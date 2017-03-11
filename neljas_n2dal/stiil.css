@@ -1,8 +1,9 @@
 /* kogu lehe sisu on max 1000px ja min 600px lai */
+  
 .menyy {
   float: left;
   padding-right: 1em;
-  padding-bottom: 10em;
+  padding-bottom: 2em;
 }
 
 ul {
@@ -12,7 +13,9 @@ ul {
     width: 200px;
     background-color: #f1f1f1;
     border: 1px solid #555;
+    
 }
+
 
 li a {
     display: block;
