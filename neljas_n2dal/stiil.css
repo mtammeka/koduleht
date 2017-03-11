@@ -1,8 +1,5 @@
 /* kogu lehe sisu on max 1000px ja min 600px lai */
 
-
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,7 +7,6 @@ ul {
     width: 200px;
     background-color: #f1f1f1;
 }
-
 
 li a {
     display: block;
@@ -21,13 +17,22 @@ li a {
 
 /* li:not(a) { color: red; border: solid black 1px; } */
 
-li:nth-child(1), li:nth-child(3), li:nth-child(9), li:nth-child(14) {
+/* li:nth-child(1), li:nth-child(3), li:nth-child(9), li:nth-child(14) {
     border: solid black 1px;
     font-weight: bold;
+} */
+.vahepealkiri {
+  display: block;
+  border: solid black 1px;
+  font-weight: bold;
+} 
+li a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
 /* Change the link color on hover */
-li a:hover {
+li a:hover:not(.aktiivne) {
     background-color: #555;
     color: white;
 }
