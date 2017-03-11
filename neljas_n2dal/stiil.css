@@ -53,7 +53,7 @@ html {
 }
 img.arhiivifoto {
   height: 320px;
-  width: 404px;
+  /*width: 404px;*/
 }
 
 img {
@@ -72,10 +72,7 @@ img:hover {
   border-radius: 15px;
 }
 
-h1, figcaption {
-  display: inline;
-  background-color: rgb(190, 190, 195);
-}
+
 
 h1:hover {
   background-color: cyan;
