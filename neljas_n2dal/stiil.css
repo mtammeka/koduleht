@@ -1,4 +1,8 @@
 /* kogu lehe sisu on max 1000px ja min 600px lai */
+.menyy {
+  float: left;
+  padding-right: 1em;
+}
 
 ul {
     list-style-type: none;
@@ -6,6 +10,7 @@ ul {
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
+    border: 1px solid #555;
 }
 
 li a {
@@ -14,11 +19,15 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
 }
+.menyy li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
 
 
 .vahepealkiri {
   display: block;
-  border: solid black 1px;
+  background-color: rgb(170, 170, 250);
   font-weight: bold;
 } 
 li a.aktiivne {
@@ -32,6 +41,10 @@ li a:hover:not(.aktiivne) {
     color: white;
 }
 
+
+
+
+
 /* Muud asjad peale menüü */
 /* kogu lehe sisu on max 1000px ja min 600px lai */
 
@@ -40,10 +53,16 @@ html {
   background: url(../pildid/lumi.png) no-repeat center center fixed; 
   background-size: cover;
 }
-#sisu {
+#sisu, figcaption {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   text-align: justify;
+  font-size: 120%;
   text-justify: newspaper;
+  text-shadow:
+   -2px -2px 0 white,  
+    2px -2px 0 white,
+   -2px  2px 0 white,
+    2px  2px 0 white;
 
 }
 #sisu, #foto {
