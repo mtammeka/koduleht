@@ -2,6 +2,7 @@
 .menyy {
   float: left;
   padding-right: 1em;
+  padding-bottom: 10em;
 }
 
 ul {
@@ -40,9 +41,6 @@ li a:hover:not(.aktiivne) {
     background-color: #555;
     color: white;
 }
-
-
-
 
 
 /* Muud asjad peale menüü */
@@ -91,10 +89,12 @@ img:hover {
   border-radius: 15px;
 }
 
-
-
 h1:hover {
-  background-color: cyan;
+    text-shadow:
+     -2px -2px 0 cyan,  
+      2px -2px 0 cyan,
+     -2px  2px 0 cyan,
+      2px  2px 0 cyan;
 }
 
 h6 {
