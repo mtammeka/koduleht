@@ -6,9 +6,14 @@ html {
   background-size: cover;
 
 }
-
-
-
+li a {
+  
+  position: relative;
+  left: 10px;
+}
+li:not(a) {
+  text-shadow: 4px 4px 4px rgb(255, 255, 0);
+}
 img.arhiivifoto {
   height: 320px;
   width: 404px;
@@ -74,7 +79,7 @@ h6 a:active {
   margin: auto;
 }
 
-#sisu p {
+#sisu p, li a {
   text-shadow: 4px 4px 4px rgb(122, 17, 17);
 }
 em {
