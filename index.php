@@ -32,6 +32,8 @@
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/css-bot.html">3.1.) CSS bot</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/stiilid.html">3.2.) stiilid.html</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/artikkel.html">3.3.) artikkel</a><br>
+    Neljanda nädala asjad - Kujundus<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="neljas_n2dal/artikkel.html">4.x.) Neljanda nädala päevaõppe praks</a><br>
 	</p>
 	<p id="suvajutt">Tervitus!</p>
 
