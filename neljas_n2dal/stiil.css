@@ -19,9 +19,11 @@ li a {
     text-decoration: none;
 }
 
-li:not(a) {
-  color: red;
-  border: solid black 1px;
+/* li:not(a) { color: red; border: solid black 1px; } */
+
+li:nth-child(1), li:nth-child(3), li:nth-child(9), li:nth-child(14) {
+    border: solid black 1px;
+    font-weight: bold;
 }
 
 /* Change the link color on hover */
