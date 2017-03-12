@@ -1,4 +1,10 @@
+#w3kleepekas {
+  position: fixed;
+  right: 20%;
+  bottom: 20%;
+}
 #quack {
+  z-index: -1; /* kindlasti märklaua ja css logo taga */
   width: 100%;
   /*height: 100%;*/
   position: fixed;
