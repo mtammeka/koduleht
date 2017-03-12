@@ -20,20 +20,27 @@
 	<body onload="startTime()">
 	<img src="pildid/c.gif" alt="..."/>
 	<p>
-		i244 esimese nädala nädalatöö - Sissejuhatus HTML-i (vt. juba 3.3)<br>
-		i244 teise nädala nädalatöö - Peenem HTML<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_01_tabeliharjutus.html">1.) tabeliharjutus</a><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_02_vorm01.html">2.1.) vorm 1</a><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_02_vorm02.html">2.2.) vorm 2</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="teine_n2dal_03_iframe.html">2.3.) iframe ja vormid</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="galerii/teine_n2dal_galerii.html" title="Ei kuulu kodutöö alla">2.x.) praktikumi galeriitöö</a><br>
-    Kolmanda nädala asjad - CSS<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/test.html">3.x.) Kolmanda nädala päevaõppe praks</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/css-bot.html">3.1.) CSS bot</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/stiilid.html">3.2.) stiilid.html</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="kolmas_n2dal/artikkel.html">3.3.) artikkel</a><br>
-    Neljanda nädala asjad - Kujundus<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="neljas_n2dal/artikkel.html">4.x.) Neljanda nädala päevaõppe praks</a><br>
+    <div class="menyy">
+      <ul>
+        <li><span class="vahepealkiri">Esimese nädala töö - Sissejuhatus HTML-i</span></li>
+        <li><a href="../kolmas_n2dal/artikkel.html">(vt. juba 3.3)</a></li>
+        <li><span class="vahepealkiri">Teise nädala töö - Peenem HTML</span></li>
+        <li><a href="../teine_n2dal_01_tabeliharjutus.html">1.) tabeliharjutus</a></li>
+        <li><a href="../teine_n2dal_02_vorm01.html">2.1.) vorm 1</a></li>
+        <li><a href="../teine_n2dal_02_vorm02.html">2.2.) vorm 2</a></li>
+        <li><a href="../teine_n2dal_03_iframe.html">2.3.) iframe ja vormid</a></li>
+        <li><a href="../galerii/teine_n2dal_galerii.html" title="Ei kuulu kodutöö alla">2.x.) praktikumi galeriitöö</a></li>
+        <li><span class="vahepealkiri">Kolmanda nädala asjad - CSS</span></li>
+        <li><a href="../kolmas_n2dal/test.html">3.x.) Kolmanda nädala päevaõppe praks</a></li>
+        <li><a href="../kolmas_n2dal/css-bot.html">3.1.) CSS bot</a></li>
+        <li><a href="../kolmas_n2dal/stiilid.html">3.2.) stiilid.html</a></li>
+        <li><a href="../kolmas_n2dal/artikkel.html">3.3.) artikkel</a></li>
+        <li><span class="vahepealkiri">Neljanda nädala asjad - Kujundus</span></li>
+        <li><a class="aktiivne" href="../neljas_n2dal/artikkel.html">4.x.) Neljanda nädala päevaõppe praks</a></li>
+        <li><a href="../neljas_n2dal/kaug01.html">4.1.) Märklaua harjutus</a></li>
+        <li><a href="../neljas_n2dal/kaug02.html">4.2.) Abakuse harjutus</a></li>
+      </ul>
+    </div>
 	</p>
 	<p id="suvajutt">Tervitus!</p>
 
