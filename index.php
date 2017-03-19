@@ -39,6 +39,10 @@
         <li><a class="aktiivne" href="neljas_n2dal/artikkel.html">4.x.) Neljanda nädala päevaõppe praks</a></li>
         <li><a href="neljas_n2dal/kaug01.html">4.1.) Märklaua harjutus</a></li>
         <li><a href="neljas_n2dal/kaug02.html">4.2.) Abakuse harjutus</a></li>
+        <li><span class="vahepealkiri">Viies nädal JavaScript</span></li>
+        <li><a href="viies_n2dal/index.html">5.x.) Niisama</a></li>
+        <li><a href="viies_n2dal/kaug01.html">5.1.) Märklaua harjutus</a></li>
+        <li><a href="viies_n2dal/kaug02.html">5.2.) Abakuse harjutus</a></li>
       </ul>
     </div>
 	</p>
