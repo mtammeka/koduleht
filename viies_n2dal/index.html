@@ -69,15 +69,28 @@
         document.getElementById("tekst").innerHTML = "abc";
       });
       
+      window.addEventListener("DOMContentLoaded", function() {
+      /* p.asi - tagastab kõik paragraph elemendid
+        dokumendis, millel on klass asi */
+        var asjad = document.querySelectorAll("p.asi");
+        for (var i = 0; i < asjad.length; i++) {
+          asjad[i].innerHTML = "---___---";
+          console.log(asjad[i]);
+        }
+      });
+
+      
     </script>
 
 	</head>
   
   <body > <!-- onload="valmis();" -->
 
-    <div id="content">
-      <p id="tekst">
-      </p>
+    <div class="div" id="content">
+      <p id="tekst"></p>
+      <p class="asi"></p>
+      <p class="asi"></p>
+      <p class="asi"></p>
     </div>
   
   </body>
