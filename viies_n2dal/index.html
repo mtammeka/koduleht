@@ -11,9 +11,12 @@
 		<title>
       Template
     </title>
-    <link rel="stylesheet" type="text/css" href="stiil.css">
+    <!--
+      <link rel="stylesheet" type="text/css" href="stiil.css">
+    -->
     
     <script> /* body, head või eraldi fail */
+      //"use strict";
       /* 
       window.onload = function() {
         valmis();
@@ -33,6 +36,39 @@
         return param1 + 1;
         //fn sisu
       }
+      miski();
+      var num; // glob
+      function miski() {
+        var text = "abcd";
+        text = "efgh";
+        num = 100;
+        var uus = true; 
+      }
+      
+      var massiiv = new Array(); // see on objekt
+      massiiv[0] = "element";
+      var ostud = ["juust", "leib", "või"];
+      var mitu = ostud.length;
+      
+      var massiiv = [1, 2, 3];
+      alert(
+        massiiv.
+          map(function(element) {
+            return element * 2;
+          }).
+            join(":")
+      );
+      
+      for (var i = 0; i < 10; i++) {
+        massiiv.push(i);
+      }
+      console.log(massiiv);
+      
+      // vt ka querySelector(All)
+      window.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("tekst").innerHTML = "abc";
+      });
+      
     </script>
 
 	</head>
@@ -40,6 +76,8 @@
   <body > <!-- onload="valmis();" -->
 
     <div id="content">
+      <p id="tekst">
+      </p>
     </div>
   
   </body>
