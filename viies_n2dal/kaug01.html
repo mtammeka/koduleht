@@ -19,7 +19,13 @@
       window.addEventListener("load", function() {
         /* tehaske kui ka pilt laetud */
         var outerEl = document.querySelector("#outermost");
-        
+        outerEl.onclick = function() {
+          this.style.top = Math.round(Math.random() * 100).toString() + "px";
+          this.style.left = Math.round(Math.random() * 100).toString() + "px";
+          
+          // this.style.visibility = "hidden";
+          console.log("tehtud");
+        };
         
       });
     </script>
