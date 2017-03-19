@@ -14,9 +14,20 @@
     <link rel="stylesheet" type="text/css" href="stiil.css">
     
     <script> /* body, head või eraldi fail */
+      /* 
+      window.onload = function() {
+        valmis();
+      }
+      */
+      
       var valmis = function() {
         alert(nimi(10));
       }
+      window.addEventListener("load", valmis);
+      window.addEventListener("load", function() {
+        alert(nimi(11));
+      });
+      /* variante: DOMContentLoaded,  */
       
       function nimi(param1) {
         return param1 + 1;
@@ -26,7 +37,7 @@
 
 	</head>
   
-  <body onload="valmis();">
+  <body > <!-- onload="valmis();" -->
 
     <div id="content">
     </div>
