@@ -67,6 +67,7 @@
       // vt ka querySelector(All)
       window.addEventListener("DOMContentLoaded", function() {
         document.getElementById("tekst").innerHTML = "abc";
+        // selle võib tegelt unustada kuna querySelector on nii hea
       });
       
       window.addEventListener("DOMContentLoaded", function() {
@@ -75,6 +76,8 @@
         var asjad = document.querySelectorAll("p.asi");
         for (var i = 0; i < asjad.length; i++) {
           asjad[i].innerHTML = "---___---";
+          asjad[i].style.color = "red";
+          asjad[i].style.fontSize = (i + 1).toString() + "em";
           console.log(asjad[i]);
         }
       });
