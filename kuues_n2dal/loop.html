@@ -20,12 +20,15 @@
       
       
       $( "#next" ).click(function() {
+        var otsitavIndex = 0;
+        console.log("Next klikitud!");
         $("li").each(function(index) {
           if ($(this).hasClass("active")) {
-            console.log("ha");
-          
+            otsitavIndex = index;
           }
         });
+        $("li").removeClass("active");
+        $("li").eq(otsitavIndex + 1).addClass("active");
       });
     });
 
