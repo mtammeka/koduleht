@@ -45,7 +45,19 @@
         console.log("Prev klikitud!");
         $("li").each(function(index) {
           /* */
+          
+          if ($(this).hasClass("active")) {
+            otsitavIndex = index;
+          }
         });
+        
+        if (otsitavIndex > 0) {
+          $("li").removeClass("active");
+          $("li").eq(otsitavIndex - 1).addClass("active");
+        } else {
+          $("li").removeClass("active");
+          $("li").last().addClass("active");
+        }
         
       });
     });
@@ -61,6 +73,7 @@
 <li>teine</li>
 <li>kolmas</li>
 <li>neljas</li>
+<li>viies</li>
 </ul>
 
 </body>
