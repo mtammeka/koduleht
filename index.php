@@ -43,6 +43,8 @@
         <li><a href="viies_n2dal/index.html">5.x.) Niisama</a></li>
         <li><a href="viies_n2dal/kaug01.html">5.1.) Märklaua harjutus</a></li>
         <li><a href="viies_n2dal/kaug02.html">5.2.) Abakuse harjutus</a></li>
+        <li><span class="vahepealkiri">Kuues nädal: Jquery</span></li>
+        <li><a href="kuues_n2dal/loop.html">6.1.) Next/prev harjutus</a></li>
       </ul>
     </div>
 	</p>
