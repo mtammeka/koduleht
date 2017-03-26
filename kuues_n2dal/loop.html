@@ -11,8 +11,23 @@
 	<script type="text/javascript">
   
     window.addEventListener("DOMContentLoaded", function() {
+    
       /* tee asjad */
       console.log("Tere!");
+      
+      var found = false;
+      $("li").each(function(index) {
+        if found {
+          $(this).addClass("active");
+        };
+        
+        if $(this).hasClass("active") {
+          found = true;
+          $(this).removeClass("active");
+        }
+      };
+      
+      $("li").addClass("active");
       
       $("li").first().addClass("active");
     });
