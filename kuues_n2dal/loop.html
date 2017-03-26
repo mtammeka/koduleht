@@ -12,23 +12,41 @@
   
     window.addEventListener("DOMContentLoaded", function() {
     
-      /* tee asjad */
       console.log("Tere!");
      
       
       $("li").first().addClass("active");
       
       
-      $( "#next" ).click(function() {
+      $("#next").click(function() {
         var otsitavIndex = 0;
         console.log("Next klikitud!");
+        
         $("li").each(function(index) {
           if ($(this).hasClass("active")) {
             otsitavIndex = index;
           }
         });
-        $("li").removeClass("active");
-        $("li").eq(otsitavIndex + 1).addClass("active");
+        
+        if (otsitavIndex < ($("li").size() - 1)) {
+          $("li").removeClass("active");
+          $("li").eq(otsitavIndex + 1).addClass("active");
+        } else {
+          $("li").removeClass("active");
+          $("li").first().addClass("active");
+        }
+      });
+      
+      
+      $("#prev").click(function() {
+        /* sisetunne ütleb et see initsieerimine on mõttetu */
+        var otsitavIndex = $("li").last().index();
+        
+        console.log("Prev klikitud!");
+        $("li").each(function(index) {
+          /* */
+        });
+        
       });
     });
 
