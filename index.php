@@ -45,6 +45,10 @@
         <li><a href="viies_n2dal/kaug02.html">5.2.) Abakuse harjutus</a></li>
         <li><span class="vahepealkiri">Kuues nädal: Jquery</span></li>
         <li><a href="kuues_n2dal/loop.html">6.1.) Next/prev harjutus</a></li>
+        <li><span class="vahepealkiri">Seitsmes nädal: PHP</span></li>
+        <li><a href="seitsmes_n2dal/reverse.php">7.1.) Stringi pööramine</a></li>
+        <li><a href="seitsmes_n2dal/suurAlgus.php">7.2.) Teksti formaatimine</a></li>
+        <li><a href="seitsmes_n2dal/kassid.php">7.3.) Include kasutamine</a></li>
       </ul>
     </div>
 	</p>
