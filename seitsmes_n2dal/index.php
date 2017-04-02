@@ -11,7 +11,20 @@
 		<title>
       Template
     </title>
-    <link rel="stylesheet" type="text/css" href="stiil.css">
+
+    <style type="text/css">
+      .active { background: skyblue; padding: 10px;}
+    </style>
+    
+    <script type="text/javascript">
+  
+      window.addEventListener("DOMContentLoaded", function() {
+    
+        console.log("Tere!");
+    
+      });
+
+    </script>
 
 	</head>
   
