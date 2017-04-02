@@ -1,3 +1,46 @@
-<code><span style="color: #000000">
-&lt;!DOCTYPE&nbsp;html&gt;<br />&lt;html&gt;<br />&lt;head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta&nbsp;charset="utf-8"&nbsp;/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Suur&nbsp;täht&lt;/title&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;link&nbsp;href='http://fonts.googleapis.com/css?family=Dancing+Script'&nbsp;rel='stylesheet'&nbsp;type='text/css'&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;style&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;body&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-family:&nbsp;'Dancing&nbsp;Script',&nbsp;cursive;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />span&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;font-size:&nbsp;3em;<br />&nbsp;&nbsp;&nbsp;&nbsp;display:&nbsp;inline-block;<br />&nbsp;&nbsp;&nbsp;&nbsp;text-align:&nbsp;center;<br />&nbsp;&nbsp;&nbsp;&nbsp;width:&nbsp;1em;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;font-weight:&nbsp;bold;<br />&nbsp;&nbsp;&nbsp;&nbsp;float:left;&nbsp;/*&nbsp;et&nbsp;oleks&nbsp;teksti&nbsp;kõrval&nbsp;*/<br />&nbsp;&nbsp;&nbsp;&nbsp;clear:&nbsp;both;&nbsp;/*&nbsp;et&nbsp;iga&nbsp;paragrahv&nbsp;algaks&nbsp;oma&nbsp;realt&nbsp;*/<br />}<br />#wrap&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;width:&nbsp;800px;<br />&nbsp;&nbsp;&nbsp;&nbsp;margin:&nbsp;auto;<br />}<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;/style&gt;<br />&lt;/head&gt;<br />&lt;body&gt;<br />&lt;div&nbsp;id="wrap"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Some&nbsp;title&lt;/h1&gt;<br /><span style="color: #0000BB">&lt;?php<br />$text</span><span style="color: #007700">=</span><span style="color: #DD0000">"Sed&nbsp;ut&nbsp;perspiciatis&nbsp;unde&nbsp;omnis&nbsp;iste&nbsp;natus&nbsp;error&nbsp;sit&nbsp;voluptatem&nbsp;accusantium&nbsp;doloremque&nbsp;laudantium,&nbsp;totam&nbsp;rem&nbsp;aperiam,&nbsp;eaque&nbsp;ipsa&nbsp;quae&nbsp;ab&nbsp;illo&nbsp;inventore&nbsp;veritatis&nbsp;et&nbsp;quasi&nbsp;architecto&nbsp;beatae&nbsp;vitae&nbsp;dicta&nbsp;sunt&nbsp;explicabo.&nbsp;Nemo&nbsp;enim&nbsp;ipsam&nbsp;voluptatem&nbsp;quia&nbsp;voluptas&nbsp;sit&nbsp;aspernatur&nbsp;aut&nbsp;odit&nbsp;aut&nbsp;fugit,&nbsp;sed&nbsp;quia&nbsp;consequuntur&nbsp;magni&nbsp;dolores&nbsp;eos&nbsp;qui&nbsp;ratione&nbsp;voluptatem&nbsp;sequi&nbsp;nesciunt.&nbsp;Neque&nbsp;porro&nbsp;quisquam&nbsp;est,&nbsp;qui&nbsp;dolorem&nbsp;ipsum&nbsp;quia&nbsp;dolor&nbsp;sit&nbsp;amet,&nbsp;consectetur,&nbsp;adipisci&nbsp;velit,&nbsp;sed&nbsp;quia&nbsp;non&nbsp;numquam&nbsp;eius&nbsp;modi&nbsp;tempora&nbsp;incidunt&nbsp;ut&nbsp;labore&nbsp;et&nbsp;dolore&nbsp;magnam&nbsp;aliquam&nbsp;quaerat&nbsp;voluptatem.&nbsp;Ut&nbsp;enim&nbsp;ad&nbsp;minima&nbsp;veniam,&nbsp;quis&nbsp;nostrum&nbsp;exercitationem&nbsp;ullam&nbsp;corporis&nbsp;suscipit&nbsp;laboriosam,&nbsp;nisi&nbsp;ut&nbsp;aliquid&nbsp;ex&nbsp;ea&nbsp;commodi&nbsp;consequatur?&nbsp;Quis&nbsp;autem&nbsp;vel&nbsp;eum&nbsp;iure&nbsp;reprehenderit&nbsp;qui&nbsp;in&nbsp;ea&nbsp;voluptate&nbsp;velit&nbsp;esse&nbsp;quam&nbsp;nihil&nbsp;molestiae&nbsp;consequatur,&nbsp;vel&nbsp;illum&nbsp;qui&nbsp;dolorem&nbsp;eum&nbsp;fugiat&nbsp;quo&nbsp;voluptas&nbsp;nulla&nbsp;pariatur?<br />At&nbsp;vero&nbsp;eos&nbsp;et&nbsp;accusamus&nbsp;et&nbsp;iusto&nbsp;odio&nbsp;dignissimos&nbsp;ducimus&nbsp;qui&nbsp;blanditiis&nbsp;praesentium&nbsp;voluptatum&nbsp;deleniti&nbsp;atque&nbsp;corrupti&nbsp;quos&nbsp;dolores&nbsp;et&nbsp;quas&nbsp;molestias&nbsp;excepturi&nbsp;sint&nbsp;occaecati&nbsp;cupiditate&nbsp;non&nbsp;provident,&nbsp;similique&nbsp;sunt&nbsp;in&nbsp;culpa&nbsp;qui&nbsp;officia&nbsp;deserunt&nbsp;mollitia&nbsp;animi,&nbsp;id&nbsp;est&nbsp;laborum&nbsp;et&nbsp;dolorum&nbsp;fuga.&nbsp;Et&nbsp;harum&nbsp;quidem&nbsp;rerum&nbsp;facilis&nbsp;est&nbsp;et&nbsp;expedita&nbsp;distinctio.&nbsp;Nam&nbsp;libero&nbsp;tempore,&nbsp;cum&nbsp;soluta&nbsp;nobis&nbsp;est&nbsp;eligendi&nbsp;optio&nbsp;cumque&nbsp;nihil&nbsp;impedit&nbsp;quo&nbsp;minus&nbsp;id&nbsp;quod&nbsp;maxime&nbsp;placeat&nbsp;facere&nbsp;possimus,&nbsp;omnis&nbsp;voluptas&nbsp;assumenda&nbsp;est,&nbsp;omnis&nbsp;dolor&nbsp;repellendus.&nbsp;Temporibus&nbsp;autem&nbsp;quibusdam&nbsp;et&nbsp;aut&nbsp;officiis&nbsp;debitis&nbsp;aut&nbsp;rerum&nbsp;necessitatibus&nbsp;saepe&nbsp;eveniet&nbsp;ut&nbsp;et&nbsp;voluptates&nbsp;repudiandae&nbsp;sint&nbsp;et&nbsp;molestiae&nbsp;non&nbsp;recusandae.&nbsp;Itaque&nbsp;earum&nbsp;rerum&nbsp;hic&nbsp;tenetur&nbsp;a&nbsp;sapiente&nbsp;delectus,&nbsp;ut&nbsp;aut&nbsp;reiciendis&nbsp;voluptatibus&nbsp;maiores&nbsp;alias&nbsp;consequatur&nbsp;aut&nbsp;perferendis&nbsp;doloribus&nbsp;asperiores&nbsp;repellat<br />Duis&nbsp;aute&nbsp;irure&nbsp;dolor&nbsp;in&nbsp;reprehenderit&nbsp;in&nbsp;voluptate&nbsp;velit&nbsp;esse&nbsp;cillum&nbsp;dolore&nbsp;eu&nbsp;fugiat&nbsp;nulla&nbsp;pariatur.&nbsp;Excepteur&nbsp;sint&nbsp;occaecat&nbsp;cupidatat&nbsp;non&nbsp;proident,&nbsp;sunt&nbsp;in&nbsp;culpa&nbsp;qui&nbsp;officia&nbsp;deserunt&nbsp;mollit&nbsp;anim&nbsp;id&nbsp;est&nbsp;laborum."</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/*<br />&nbsp;&nbsp;&nbsp;&nbsp;SIIN&nbsp;ESITADA&nbsp;TEKST&nbsp;NII;&nbsp;ET&nbsp;IGA&nbsp;PRAGRAHVI&nbsp;ALGUSTÄHT&nbsp;ON&nbsp;SUUR&nbsp;(span&nbsp;vahel)<br />*/<br /></span><span style="color: #0000BB">?&gt;<br /></span>&lt;/div&gt;<br />&lt;/body&gt;<br />&lt;/html&gt;</span>
-</code>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Suur täht</title>
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+        font-family: 'Dancing Script', cursive;
+    }
+span {
+    font-size: 3em;
+    display: inline-block;
+    text-align: center;
+    width: 1em; 
+    font-weight: bold;
+    float:left; /* et oleks teksti kõrval */
+    clear: both; /* et iga paragrahv algaks oma realt */
+}
+#wrap {
+    width: 800px;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <h1>Some title</h1>
+<?php
+$text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+$paragraphs = explode("\n", $text);
+foreach($paragraphs as $paragraph) {
+  echo '<p>';
+  echo '<span>';
+  echo substr($paragraph, 0, 1);
+  echo '</span>';
+  echo substr($paragraph, 1);
+  echo '</p>';
+}
+?>
+</div>
+</body>
+</html>
