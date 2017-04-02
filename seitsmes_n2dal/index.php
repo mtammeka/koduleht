@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!--
-  HTML template
-  -MT
+  Seitsmes nädal
 -->
 
 <html lang="en" dir="ltr">
@@ -9,7 +8,7 @@
 		<meta charset="UTF-8">
     <meta name="author" content="Madis Tammekänd">
 		<title>
-      Template
+      PHP
     </title>
 
     <style type="text/css">
