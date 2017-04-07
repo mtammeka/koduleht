@@ -49,6 +49,8 @@
         <li><a href="seitsmes_n2dal/reverse.php">7.1.) Stringi pööramine</a></li>
         <li><a href="seitsmes_n2dal/suurAlgus.php">7.2.) Teksti formaatimine</a></li>
         <li><a href="seitsmes_n2dal/kassid.php">7.3.) Include kasutamine</a></li>
+        <li><span class="vahepealkiri">Kaheksas nädal: POST ja GET</span></li>
+        <li><a href="kaheksas_n2dal/index.php">8.x.) Test</a></li>
       </ul>
     </div>
 	</p>
