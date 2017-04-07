@@ -16,10 +16,6 @@
 	</head>
   
   <body>
-  
-    <div id="content">
-
-    </div>
     
     <?php
       // jäädvustame selle lehe aadressi, et saaks kerge vaevaga sellele linkida
